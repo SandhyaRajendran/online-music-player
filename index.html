@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/681656317d.js" crossorigin="anonymous"></script>
+    <title>Music player</title>
+</head>
+
+<body>
+    <div class="side">
+        <span><button class="playlisst"><i class="fa-sharp fa-solid fa-list"></i></button><span class="playy">List of
+                all songs</span>
+            <span><button class="xmark hide">X</button></span>
+            <div class="songshere hide"></div>
+    </div>
+    <div class="container">
+        <div class="headers">
+            <h4>Online Music player</h4>
+        </div>
+        <div class="header"></div>
+        <div class="middle">
+            <p id="title">title.mp3</p>
+            <p id="artist">Artist name</p>
+            <h6 class="alert hide"></h6>
+            <img id="images">
+            <div class="allbtns">
+                <button id="previous"><i class="fa-solid fa-backward-step"></i></button>
+                <button class="play"><i class="fa-sharp fa-regular fa-circle-play"></i></button>
+                <button class="pause hide"><i class="fa fa-pause" aria-hidden="true"></i></button>
+                <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+                <button class="random"><i class="fa-solid fa-shuffle"></i></button>
+            </div>
+        </div>
+        <label>song duration</label><span class="staart">0:00</span>
+        <span>/</span><span class="end">4:00</span>
+        <input type="range" id="ranger" min="0" max="100" value="0">
+        <label>sound</label><span class="soundValue">90</span>
+        <input type="range" id="sound" min="0" max="100" value="90">
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

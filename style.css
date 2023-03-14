@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+    max-width: 1440px;
+    font-size: 20px;
+    /* background-color: black; */
+}
+body{
+    width: 100%;
+    /* for whtst vh is used */
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 16, 16);
+}
+
+body
+{
+    position: relative;
+}
+.side{
+    position:absolute;
+
+    top:9%;
+    right: 3%;
+
+}
+.container{
+    width: 30%;
+    /* height: 88vh; */
+    margin:auto;
+    /* background-image: linear-gradient(to left bottom, #6200fb, #4720d0, #3526a4, #2b2579, #24214e, #30254a, #382947, #3d2e44, #663c60, #964773, #ca517c, #fb5f7a); */
+    border-radius: 20px;
+    background-color: rgb(142, 66, 66);
+    box-shadow: rgba(rgba(0, 0, 0, 0.9));
+}
+
+.side{
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgb(142, 66, 66);
+    box-shadow: rgba(rgba(0, 0, 0, 0.9));   
+}
+.playy{
+    padding: 5%;
+}
+h4{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 20px;
+    color: white;
+}
+img{
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+    border-radius: 10px;
+    box-shadow: 10px 15px 25px rgb(0, 0, 0,2);
+}
+p{
+    margin: 3%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+input,label{
+    width: 80%;
+    margin: 2% 10% 10% 10%;
+    color: white;
+}
+
+span{
+    color: white;
+}
+.headers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+button{
+    padding: 20px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    box-shadow: 3px 3px 10px;
+
+}
+
+.middle{
+    text-align: center;
+}
+.allbtns{
+
+    width: 96%;
+    display: flex;
+    justify-content: space-evenly;
+}
+button:hover{
+    cursor: pointer;
+    color:rgb(189, 176, 176);
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+#hide{
+    display: none;
+}
+li{
+    padding-left: 10%;
+    padding-bottom: 4%;
+    padding-top:  2%; 
+    list-style: none;
+    list-style:decimal;
+
+    font-size: 20px;
+}
