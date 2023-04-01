@@ -27,6 +27,18 @@
             <p id="artist">Artist name</p>
             <h6 class="alert hide"></h6>
             <img id="images">
+            <!-- <button class="soundd"><i class="fa-solid fa-volume-high"></i></button> -->
+            <!-- <button class="sounnnnd"><i class="fa-solid fa-volume-xmark"></i></button> -->
+    <div class="songduration">
+        <label>song duration</label><span class="staart">0:00</span>
+        <span>/</span><span class="end">4:00</span>
+        <input type="range" id="ranger" min="0" max="100" value="0">
+    </div>
+    <div class="soundduration">
+        <label>sound</label><span class="soundValue">90</span>
+        <br>
+        <input type="range" id="sound" min="0" max="100" value="90">
+    </div>
             <div class="allbtns">
                 <button id="previous"><i class="fa-solid fa-backward-step"></i></button>
                 <button class="play"><i class="fa-sharp fa-regular fa-circle-play"></i></button>
@@ -35,11 +47,6 @@
                 <button class="random"><i class="fa-solid fa-shuffle"></i></button>
             </div>
         </div>
-        <label>song duration</label><span class="staart">0:00</span>
-        <span>/</span><span class="end">4:00</span>
-        <input type="range" id="ranger" min="0" max="100" value="0">
-        <label>sound</label><span class="soundValue">90</span>
-        <input type="range" id="sound" min="0" max="100" value="90">
     </div>
 </body>
 <script src="script.js"></script>

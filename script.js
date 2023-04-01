@@ -12,19 +12,12 @@ let All_song = [{
     singer: "2",
     artist: "Ethirneechal"
 },
-{
-    name: "Chilla Chilla song",
-    path: "songs/song2.mp3",
-    img: "images/im2.jpeg",
-    singer: "3",
-    artist: "Thunivu"
-},
 
 {
     name: "Unstoppable song",
     path: "songs/song3.mp3",
     img: "images/imm3.jpeg",
-    singer: "4",
+    singer: "3",
     artist: "Unstoppable"
 },
 
@@ -32,21 +25,21 @@ let All_song = [{
     name: "Themai than vellum song",
     path: "songs/song4.mp3",
     img: "images/im44.png",
-    singer: "5",
+    singer: "4",
     artist: "Thanioruvan"
 },
 {
     name: "Let me sing a kutty story",
     path: "songs/song5.mp3",
     img: "images/img5.png",
-    singer: "6",
+    singer: "5",
     artist: "Master"
 },
 {
     name: "Damaku Damaku Dama",
     path: "songs/song6.mp3",
     img: "images/img6.png",
-    singer: "7",
+    singer: "6",
     artist: "Adhvan"
 },
 
@@ -54,7 +47,7 @@ let All_song = [{
     name: "Thani oruvan",
     path: "songs/song7.mp3",
     img: "images/im44.png",
-    singer: "8",
+    singer: "7",
     artist: "Thanioruvan"
 }
 ];
@@ -84,7 +77,7 @@ previousBtn.addEventListener('click', function () {
     images.src = All_song[decrement].img;
     audio.src = All_song[decrement].path;
 
-    showAlert('Now previous song is playinG')
+    showAlert('Now previous song is playing')
 })
 
 let increment = 0;
